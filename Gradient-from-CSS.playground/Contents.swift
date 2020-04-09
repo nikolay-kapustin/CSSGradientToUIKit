@@ -79,16 +79,15 @@ class MyViewController : UIViewController {
         view.backgroundColor = .white
 
         let block = UIView()
-        let width:Double = 200
-        let height:Double = 100
-        block.frame = CGRect(x: 150, y: 200, width: width, height: height)
+        let size = CGSize(width: 200, height: 100)
+        block.frame = CGRect(x: 0, y: 200, width: size.width, height: size.height)
         //label.text = "Hello World!"
         block.backgroundColor = .white
         let gradient = CAGradientLayer()
         gradient.frame = block.bounds
         gradient.colors = [UIColor.red.cgColor, UIColor.yellow.cgColor]
 
-        let points = gradientPoints(size: gradient.bounds.size, cssAngle: 77)
+        let points = gradientPoints(size: gradient.bounds.size, cssAngle: -275)
         gradient.startPoint = points.start
         gradient.endPoint = points.end
 

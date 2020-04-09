@@ -2,5 +2,10 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/nkapustin/Projects/GitHub/CSSGradientToUIKit/Gradient-from-CSS.playground#CharacterRangeLen=49&amp;CharacterRangeLoc=3576&amp;EndingColumnNumber=0&amp;EndingLineNumber=73&amp;StartingColumnNumber=12&amp;StartingLineNumber=72&amp;Timestamp=608145653.594629"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
